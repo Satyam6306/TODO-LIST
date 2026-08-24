@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #1e1e2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+}
+
+.Form {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form b {
+    font-size: 0.9rem;
+    color: #444;
+    display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    outline: none;
+   
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #5353e6;
+}
+
+.gender {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.gender input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    cursor: pointer;
+}
+
+form button {
+    background: #5353e6;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+form button:hover {
+    background: #3b3be0;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.smallCard {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #f5f5f5;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
